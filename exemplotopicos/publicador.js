@@ -2,12 +2,12 @@ const { ServiceBusClient } = require("@azure/service-bus");
 const { DefaultAzureCredential } = require("@azure/identity");
 const WebSocket = require('ws');
 // Replace `<SERVICE-BUS-NAMESPACE>` with your namespace
-const fullyQualifiedNamespace = "<SERVICE-BUS-NAMESPACE>.servicebus.windows.net";
+const fullyQualifiedNamespace = "waltercoan.servicebus.windows.net";
 
 // Passwordless credential
 const credential = new DefaultAzureCredential();
 
-const topicName = "<NOME DO TOPICO>";
+const topicName = "univille";
 
 const connectionOptions = {
     webSocketOptions: {
@@ -16,16 +16,9 @@ const connectionOptions = {
 };
 
 const messages = [
-    { body: "Albert Einstein" },
-    { body: "Werner Heisenberg" },
-    { body: "Marie Curie" },
-    { body: "Steven Hawking" },
-    { body: "Isaac Newton" },
-    { body: "Niels Bohr" },
-    { body: "Michael Faraday" },
-    { body: "Galileo Galilei" },
-    { body: "Johannes Kepler" },
-    { body: "Nikolaus Kopernikus" }
+    { body: "Walter Teste 1" },
+    { body: "Walter Teste 2" },
+    { body: "Walter Teste 3" },
  ];
 
  async function main() {

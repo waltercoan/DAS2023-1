@@ -15,6 +15,8 @@
 
 ### Exemplos de arquiteturas
 - [Exemplo 1](https://learn.microsoft.com/en-us/azure/architecture/web-apps/app-service/architectures/basic-web-app?tabs=cli)
+- [Diagrama de componentes Draw.io](\diagramas\componentes\2023-10-20-DiagramaComponentes.drawio)
+- [Diagrama de componentes Draw.io PDF](\diagramas\componentes\2023-10-20-DiagramaComponentes.drawio.pdf)
 - [Exemplo 2](https://docs.aws.amazon.com/whitepapers/latest/web-application-hosting-best-practices/an-aws-cloud-architecture-for-web-hosting.html)
 
 ###  UML
